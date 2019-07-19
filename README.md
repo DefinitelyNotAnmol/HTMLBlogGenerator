@@ -1,6 +1,5 @@
 # HTMLBlogGenerator
 
-Automatic Markup generator for the blogs in my personal website
-Files are stored with the extension of .blog
+Automatic HTML code generator for the blogs for my personal website
 
 Documentation
