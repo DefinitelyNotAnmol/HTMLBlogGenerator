@@ -37,4 +37,6 @@ BlockQuote - Optional
 /Block
     This is the block quote text
 /
+
+/Strong /
  */
