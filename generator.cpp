@@ -2,11 +2,13 @@
 #include <string>
 
 int main(int argc, char *argv[]) {
-
+    // argv will have the file source url
     return 0;
 }
 
 /*
+Save files with the extension of .blog
+
 Title - Required
 /Title
     Format for title
