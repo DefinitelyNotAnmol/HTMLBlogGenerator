@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    constants::blog blog = constants::generate(argv[1]);
+    admd::blog blog = admd::parser(argv[1]);
     std::ofstream outfile;
     outfile.open(blog.STitle + ".html", std::ios::out | std::ios::trunc);
     outfile << blog.Data;

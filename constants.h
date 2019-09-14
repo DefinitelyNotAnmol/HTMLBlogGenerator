@@ -1,17 +1,17 @@
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+#ifndef ADMD_H
+#define ADMD_H
 
-namespace constants {
+namespace admd {
     struct blog {
         std::string STitle;
         std::string Data;
     };
 
-    blog generate(std::string filename);
+    blog parser(std::string filename);
 }
 
-constants::blog constants::generate(std::string filename) {
-    return constants::blog();
+admd::blog admd::parser(std::string filename) {
+    return admd::blog();
 }
 
-#endif
+#endif //ADMD_H
