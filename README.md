@@ -6,6 +6,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Title (Required)
 
+Main Title for the Blog
 ```
 /Title
     Title
@@ -14,6 +15,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Short Title (Required)
 
+Short Title for the Blog
 ```
 /STitle
     ShortTitle
@@ -22,6 +24,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Date (Required)
 
+Date of publishing
 ```
 /Date
     Feb 07, 2019
@@ -32,6 +35,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Tag (Required)
 
+Tags for topic of the blog
 ```
 /Tag
     Design Resources, Adobe Illustrator
@@ -40,6 +44,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### MainImage (Required [1200 x 800])
 
+Main Blog Image
 ```
 /MImage
     image.jpg
@@ -48,6 +53,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Image (Optional)
 
+Images used inside the blog
 ```
 /Image
     image.jpg
@@ -56,6 +62,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Paragraph (Optional)
 
+Paragraph text
 ```
 /Para
     This is the format for paragraph text
@@ -64,6 +71,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### BlockQuote (Optional)
 
+To add BlockQoute
 ```
 /Block
     This is the block quote text
@@ -72,6 +80,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Bullets (Optional)
 
+Add unordered list
 ```
 /Bullets
     firstline
@@ -81,6 +90,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### NumberedList (Optional)
 
+Add ordered list
 ```
 /List
     firstline
@@ -90,6 +100,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Bold (Optional)
 
+Bold the text
 ```
 /Bold
     line
@@ -98,6 +109,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### External Links (Optional)
 
+Add external links
 ```
 /Link
     "text"
@@ -107,6 +119,7 @@ Automatic HTML code generator for the blogs for my personal website
 
 ### Author (Required)
 
+Sign the blog by adding your name
 ```
 /Sign
     Anmol Jain
