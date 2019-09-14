@@ -2,16 +2,21 @@
 
 Automatic HTML code generator for the blogs for my personal website
 
-Documentation
-Title - Required
-/Title
-    Format for title
-/
+##Documentation
+###Title(Required)
 
-Short Title - Required
-/STitle
-    Short title
+```
+/Title
+    Title
 /
+```
+
+###Short Title - Required
+```
+/STitle
+    ShortTitle
+/
+```
 
 Date - Required
 /Date
