@@ -2,8 +2,8 @@
 
 Automatic HTML code generator for the blogs for my personal website
 
-##Documentation
-###Title(Required)
+## Documentation
+### Title(Required)
 
 ```
 /Title
@@ -11,7 +11,7 @@ Automatic HTML code generator for the blogs for my personal website
 /
 ```
 
-###Short Title - Required
+### Short Title - Required
 ```
 /STitle
     ShortTitle
