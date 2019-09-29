@@ -12,11 +12,24 @@ namespace admd {
         std::vector<std::string> s_images;
     };
 
-    blog parser(std::string filename);
+    blog parser(const std::string& filename);
+    bool bloggify(const std::string& filename);
 }
 
-admd::blog admd::parser(std::string filename) {
+admd::blog admd::parser(const std::string& filename) {
     return admd::blog();
+}
+
+bool admd::bloggify(const std::string& filename) {
+    
+    admd::blog blog = admd::parser(filename);
+    std::ofstream outfile;
+    outfile.open(blog.s_title + ".html", std::ios::out | std::ios::trunc);
+    outfile << blog.s_data;
+    outfile.close();
+
+
+    return true;
 }
 
 #endif //ADMD_H
