@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <fstream>
 
 #include "admd.h"
 
@@ -11,20 +9,16 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    admd::blog blog = admd::parser(argv[1]);
-    std::ofstream outfile;
-    outfile.open(blog.STitle + ".html", std::ios::out | std::ios::trunc);
-    outfile << blog.Data;
-    outfile.close();
+    admd::bloggify(argv[1]);
     return 0;
 }
 
 /*
-    Save an file using tags mentioned below and save the file with extension .admd
+    Save an file using tags mentioned below with the extension .admd
     also keep all the images in the same directory as .admd file
 
-    after running the program copy image folder to <blogName> folder to images/Blog folder of website
-    copy <blogName>.html to static/blog folder in website
+    after running the program copy image folder named <blogName> to images/Blog folder of website
+    then copy <blogName>.html to static/blog folder in website
 */
 
 /*
