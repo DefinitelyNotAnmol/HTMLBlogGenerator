@@ -1,4 +1,4 @@
-# HTMLBlogGenerator
+# HTMLBlogGenerator (Not Completed Yet)
 
 Automatic HTML code generator for the blogs for my personal website (https://definitelynotanmol.github.io)
 
